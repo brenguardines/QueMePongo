@@ -1,13 +1,13 @@
 package org.example;
 
 public class ColorPrimario {
-  private Integer r;
-  private Integer g;
-  private Integer b;
+  private Integer colorRed;
+  private Integer colorGreen;
+  private Integer colorBlue;
 
-  public ColorPrimario(Integer r, Integer g, Integer b) {
-    this.r = r;
-    this.g = g;
-    this.b = b;
+  public ColorPrimario(Integer colorRed, Integer colorGreen, Integer colorBlue) {
+    this.colorRed = colorRed;
+    this.colorGreen = colorGreen;
+    this.colorBlue = colorBlue;
   }
 }

@@ -23,4 +23,8 @@ public class Prenda {
     return tipoPrenda.getCategoria();
   }
 
+  public ColorSecundario getColorSecundario() {
+    return colorSecundario;
+  }
+
 }
