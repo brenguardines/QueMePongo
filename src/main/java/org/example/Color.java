@@ -1,11 +1,11 @@
 package org.example;
 
-public class ColorSecundario {
+public class Color {
   private Integer colorRed;
   private Integer colorGreen;
   private Integer colorBlue;
 
-  public ColorSecundario(Integer colorRed, Integer colorGreen, Integer colorBlue) {
+  public Color(Integer colorRed, Integer colorGreen, Integer colorBlue) {
     this.colorRed = colorRed;
     this.colorGreen = colorGreen;
     this.colorBlue = colorBlue;

@@ -12,7 +12,7 @@ public class PrendaTest {
 
   @Test
   void unaPrendaConColorSecundario() {
-    ColorSecundario color = new ColorSecundario(255,0,0);
+    Color color = new Color(255,0,0);
     assertEquals(unPantalonDeJeanBlancoYRojo().getColorSecundario().getColorRed() , color.getColorRed());
     assertEquals(unPantalonDeJeanBlancoYRojo().getColorSecundario().getColorGreen() , color.getColorGreen());
     assertEquals(unPantalonDeJeanBlancoYRojo().getColorSecundario().getColorBlue() , color.getColorBlue());
@@ -28,22 +28,22 @@ public class PrendaTest {
     return new Prenda(
         new TipoPrenda("Remera", Categoria.PARTE_SUPERIOR),
         Material.ALGODON,
-        new ColorPrimario(0,0,255));
+        new Color(0,0,255));
   }
 
   private Prenda unPantalonDeJeanBlancoYRojo(){
     return new Prenda(
         new TipoPrenda("Pantalon", Categoria.PARTE_INFERIOR),
         Material.JEAN,
-        new ColorPrimario(255,255,255),
-        new ColorSecundario(255,0,0));
+        new Color(255,255,255),
+        new Color(255,0,0));
   }
 
   private Prenda unaCamperaDeCueroNegro(){
     return new Prenda(
         new TipoPrenda("Pantalon", Categoria.PARTE_SUPERIOR),
         Material.CUERO,
-        new ColorPrimario(0,0,0));
+        new Color(0,0,0));
   }
 
 }
