@@ -28,6 +28,7 @@ public class PrendaTest {
     return new Prenda(
         new TipoPrenda("Remera", Categoria.PARTE_SUPERIOR),
         Material.ALGODON,
+        Trama.LISA,
         new Color(0,0,255));
   }
 
@@ -35,6 +36,7 @@ public class PrendaTest {
     return new Prenda(
         new TipoPrenda("Pantalon", Categoria.PARTE_INFERIOR),
         Material.JEAN,
+        Trama.RAYADA,
         new Color(255,255,255),
         new Color(255,0,0));
   }
@@ -43,6 +45,7 @@ public class PrendaTest {
     return new Prenda(
         new TipoPrenda("Pantalon", Categoria.PARTE_SUPERIOR),
         Material.CUERO,
+        Trama.ESTAMPADO,
         new Color(0,0,0));
   }
 
